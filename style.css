@@ -231,51 +231,6 @@ nav i{
 .mb-dropdown-menu.active{
     max-height: 150px;
 }
-/* Mobile Navbar Responsiveness */
-@media screen and (max-width:860px) {
-    body{
-        width: 100%;
-    }
-    header{
-        display: none;
-    }
-    .mobile-header{
-        display: block;
-        position: fixed;
-        width: 100%;
-    }
-    .mb-header{
-        width: 100%;
-    }
-    .mb-nav{
-        display: block;
-        width: 60%;
-        height: 600px;
-    }
-    .mb-dropdown{
-        display: block;
-    }
-    .mb-dropdown-menu{
-        display: block;
-    }
-     .burger{
-        left: 75px;
-    }
-    .bttn{
-        height: 20px;
-    }
-    .btns a{
-        font-size: .9rem;
-        font-weight: 300;
-        align-items: center;
-    }
-   
-    .fixed-size{
-        margin-top: 200px;
-    }
-
-}
-
 .fixed-size{
     margin-top: 150px;
 }
@@ -464,6 +419,52 @@ hr{
     }
 
 }
+/* Mobile Navbar Responsiveness */
+@media screen and (max-width:860px) {
+    body{
+        width: 100%;
+    }
+    header{
+        display: none;
+    }
+    .mobile-header{
+        display: block;
+        position: fixed;
+        width: 100%;
+    }
+    .mb-header{
+        width: 100%;
+    }
+    .mb-nav{
+        display: block;
+        width: 60%;
+        height: 600px;
+    }
+    .mb-dropdown{
+        display: block;
+    }
+    .mb-dropdown-menu{
+        display: block;
+    }
+     .burger{
+        left: 75px;
+    }
+    .bttn{
+        height: 20px;
+    }
+    .btns a{
+        font-size: .9rem;
+        font-weight: 300;
+        align-items: center;
+    }
+   
+    .fixed-size{
+        margin-top: 200px;
+    }
+
+}
+
+
 
 
 /* WHO WE ARE */
