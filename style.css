@@ -214,8 +214,7 @@ nav i{
 .mb-dropdown-menu{
     position: relative;
     z-index: 9;
-    width: 250px;
-    padding: 10pxx;
+    padding: 10px;
     max-height:0;
     overflow: hidden;
 }
@@ -259,6 +258,18 @@ nav i{
     .mb-dropdown-menu{
         display: block;
     }
+     .burger{
+        left: 75px;
+    }
+    .bttn{
+        height: 20px;
+    }
+    .btns a{
+        font-size: .9rem;
+        font-weight: 300;
+        align-items: center;
+    }
+   
     .fixed-size{
         margin-top: 200px;
     }
